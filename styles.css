@@ -31,8 +31,9 @@ header div {
     width: 120px;
     margin: auto;
     background-image: linear-gradient(90deg,#46444b 0%, #4e5251 50.52%, #706f6b 100% ) ;
-    border-radius: 50%;
+    border-radius: 80%;
     display: flex;
+    justify-content: center;
     padding: 4px;
     transition: transform .3s;
 }
@@ -81,7 +82,7 @@ section p {
 section ul {
     display: flex ;
     flex-wrap: wrap;
-    gap: 16px ;
+    gap: 15px ;
     
     margin-top: 24px;
 }
