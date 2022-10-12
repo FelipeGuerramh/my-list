@@ -33,7 +33,6 @@ header div {
     background-image: linear-gradient(90deg,#46444b 0%, #4e5251 50.52%, #706f6b 100% ) ;
     border-radius: 80%;
     display: flex;
-    justify-content: center;
     padding: 4px;
     transition: transform .3s;
 }
@@ -44,6 +43,7 @@ header div:hover {
 
 header div img {
     width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -58,6 +58,7 @@ main {
 section {
     color: white;
     /* background-image: linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100% ) ; */
+    background-image: linear-gradient(90deg,#46444b 0%, #4e5251 50.52%, #706f6b 100% ) ;
     padding-top: 4px;
     border-radius: 10px;
 }
